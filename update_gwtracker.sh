@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -Eeuo pipefail
 
 # Define the repository URL
 REPO_URL="https://github.com/debilski/gwtracker"
