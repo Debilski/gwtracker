@@ -26,7 +26,7 @@ fi
 cd "$TARGET_DIR"
 rm -rf venv/
 python3 -m venv venv
-. ./venv/bin/activate.sh
+. ./venv/bin/activate
 pip install -e .
 
 gwtracker
